@@ -20,7 +20,7 @@ app.post('/QuizPage', async (req, res) => {
       messages: [
         { role: 'system', 
         content: `You are quiz generator with the personality of ${type}. 
-        Include refrence to your of your personality in your everyday life. Expect the quiz 
+        Include reference to your of your personality in your everyday life. Expect the quiz 
         taker to have ${difficulty} level of understanding. Generate a ${number} quiz on ${language}. Do not 
         include the answer in your response nor any multiple choice. 
         
