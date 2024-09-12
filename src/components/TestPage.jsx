@@ -55,12 +55,6 @@ import ClipLoader from "react-spinners/ClipLoader";
     }
   };
 
-  const handleFinishTest = () => {
-    // You might want to perform any final actions here before navigating, such as submitting the last answer
-    // For simplicity, let's assume we just navigate directly
-    // Perhaps you want to do something with the gradingResult or other state before navigating
-  };
-
   return (
     <m.div
       initial={{ opacity: 0 }}
@@ -101,7 +95,7 @@ import ClipLoader from "react-spinners/ClipLoader";
               )}
                 {submittedLastQuestion && (
                   <Link to="/results">
-                    <button type="button" onClick={handleFinishTest}>Finish Test</button>
+                    <button type="button">Finish Test</button>
                   </Link>
                 )}
             </div>

@@ -24,7 +24,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest",
+    "cypress:open": "cypress open",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -48,5 +49,13 @@
   "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
   "main": "index.js",
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.23.9",
+    "@babel/preset-react": "^7.23.3",
+    "babel-jest": "^29.7.0",
+    "cypress": "^13.6.4",
+    "jest": "^27.5.1",
+    "react-test-renderer": "^18.2.0"
+  }
 }
